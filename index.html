@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Profile Card</title>
+</head>
+<body>
+  <div class ="profile-card">
+    <div class = "image">
+      <img src="KII.jpg" class="profile-img">
+    </div>
+
+    <div class="text-data">
+      <span class="name">Kieran Osborne</span>
+      <span class="Job">Developer & Runner</span>
+    </div>
+
+    <div class="media-buttons">
+      <a href="https://github.com/Moon-Kie-Terra" class="link">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjBJREFUSEu11UnIjlEUB/DfJ7IhCyRZosxFslCKKGFjKEOKEjKlJGOJZAglkiHsCCXDhh0LC5SIjEWysDAkC1KIPOfrvnW/53uHx+I7m/e99/7P/Z9z7jn/p00XW1sX368VQQ/MxgyMxlDafd7hCW4W+1fwu1GgzQim4SSGtMjyLVbiVj1cI4It2J+irVLFv9iKQ2VwPYLNOFDl1jqYDTiS75cJpqRUYz/quwyrsQPd8CbVezgi6n04gWOYl/Ym4W6NJCfoiecYnA53Y2f6H+/wEd/SuhcG4nVab8fe9P8FxhRB/Yl1TrAAl7L0ItVIuYodxKYMOCtVoAPB+SKixRloIu5VuT1F/DgL+DjWlTOI8ozI0hxZ8fIa7CHGpcWDIoMJZYJP6J8A14tBmvOfBBewKPl8Qb8ywYdisAYkwG1M/U+CG5iZfL6jd5ngEcYmQHRL32YSUCIPSfmMPmn/FaKVOzzyGSzPHFfgbMUsAns6w57DkjJB1PwqviJSjD6P8Q89+tGAKOZhbRq4GMSazcflMkHMRHTSoKI9p2MVluJX6umF+JluiJJcS7juJfKXGJWmupNcz03y+x7j0+BNTlmsKV10EUFatqhEdGG71RO7o1if9GdPkzfYlUlJDXa4kJONuU8juQ5xCy26U4jYUzzDqRJZnAeuZqHCleS65hCqGHoU0xnyHQ+eWyjpNtxPmhW/nazVJzPO45MZMh2Z5DYs9Xo8dkNrRdDMt9JZlxP8A6W4YxlKv0WFAAAAAElFTkSuQmCC"/>
+      </a>
+      <a href="#" class="link" style ="background-color: #0A66C2;">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvt1U8rRUEYx/HPpZQNUihlw8JClKz8KQtvQumuvAore2/CRl6GLKTI2kKiLCRKsaAoNDWj6XSyuHNPFkydmplznt935vc8T6el4dFqWF8dYDxCb7sBrwL2sR6Fd7FZCskBA3hAXxR9wyieSiA5YBD3FcAInrsFCDqNWpQO2miSlzKLXnESqfMIFobxglMMYwWz6I23v6zaWa2iO4zFj64wFedHWI7zC2xHwTz+A1vYySGdAB7RH5+6/K/hIL3oBJBiA+gGc+jJSKFQNkoBe2hHkVUcZoBzzJQCphFykUa4yURchMYcKgWEbn/PAGdYyNbf1v+Ug2tM1lRR2Aqef2aCx1j8B6RG++MW1bV+0d6v/PSLTlwN/gJoOFMZN0/g7AAAAABJRU5ErkJggg=="/>
+      </a>
+      <a href="#" class="link" style="background-color:#FC4C02;">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZ1JREFUSEvV1C9oVlEYBvDfEINVhgYFQcMGFqc2i2JYFTdcsIgMhInBICjKwhD/wASDSZHBGAiKyaSIwQUtajGooEHQokmDJrfvlXdy/bh355PvLnjK5Z5zeJ73fZ7nPQPWeA2sMb5+CY5gJoucxt3ugvsleIOhBH2L4f+OoDWJ7mA/nuAFXuX3WykkvXhwFAsNQA8wgR9NRCWCdQjzduAKwtRT2FMBvJF7tRwlgmOYwydsxya8w4YutJMYxD5sxq6V8xLBLUziBG7iPg5XwON/rKb0Lfgc+yWCuDOa5h7AwwrYbUwhitiGD3jeuf8Mr7HUK0HcW5/6h0yxvqdkX9tIUWCcw6UKWLQf3iziaT8pCsytFWOj9Z1d0v7EBVyr66YXD+51NB3Pio9ngiIlezMth7ARu3MA/+IpERzE49Q8ZuFLTZUXcR6zOFN67H47X7NO43rDWXQTT8fHTNOqHXQTxBMwn3H8tUpi3meqQrZ4q/6skkSlFK6cX8bZjj9X89s6wQhe4lEOZusEARhDGNP8TynqVaLGe2150EiwDLeuSRnHAW94AAAAAElFTkSuQmCC"/>
+      </a>
+    </div>
+
+    <div class="buttons">
+      <button >Follow</button>
+      <button >Message</button>
+    </div>
+  </div>
+</body>
+</html>

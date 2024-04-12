@@ -1,0 +1,108 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:Poppins;
+}
+
+
+body
+{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+}
+
+.profile-card
+{display:flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width:100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  border-radius:24px;
+  padding:25px;
+}
+.image
+{
+  position: relative;
+  height:150px;
+  width:150px;
+  background-color: rgb(4, 125, 255);
+  padding:3px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.image .profile-img 
+{
+  object-fit: cover;
+  width:100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.text-data
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.name
+{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.media-buttons
+{
+ display: flex;
+ align-items: center;
+
+}
+ .link
+{ margin: 24px 8px;
+  text-decoration: none;
+  height:34px;
+  width:34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(209, 32, 194);
+}
+
+
+.buttons
+{
+  display: flex;
+  align-items: center;
+  
+}
+
+
+button
+{
+  border-style:none;
+  background-color: rgb(4, 125, 255) ;
+  color:white;
+  padding:10px 30px 10px 30px;
+  border-radius: 20px;
+  margin-right:20px;
+  margin-left:20px;
+  transition: 0.25s;
+}
+
+button:hover
+{
+  background-color: rgb(6, 104, 208);
+  cursor: pointer;
+}
